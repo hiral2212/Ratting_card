@@ -1,0 +1,131 @@
+/* * {
+        box-sizing: border-box;
+} */
+
+html {
+
+    font-family: 'Overpass', sans-serif;
+}
+
+body {
+    background-color: #141519;
+    font-size: 15px;
+}
+.container {
+    background-color: #1a232c;
+    background-image: linear-gradient(to bottom right, #1e252f, #171e28);
+    color: white;
+    width: 410px;
+
+    padding: 25px;
+    border-radius: 25px;
+    text-align: center;
+    margin: 100px auto;
+    padding: 25px;
+}
+.hidden{
+    display: none;
+}
+
+.star {
+    display: flex;
+    background-color: rgb(38, 47, 56);
+}
+
+/* buttons */
+
+h2 {
+    background-color: rgb(38, 47, 56);
+    color:hsl(25, 97%, 53%);
+    font-weight: 100;
+    font-size: 15px;
+    border-radius: 25px;
+    padding: 7px;
+    width: 200px;
+    margin: 40px auto;
+}
+
+.button {
+    padding: 13px;
+    border-radius: 25px;
+    height: 20px;
+    width: 20px;
+    text-align: center;
+}
+
+.rating {
+    background-color: rgb(38, 47, 56);
+    color: #7c8898;
+}
+.rating:hover {
+    background-color: hsl(25, 97%, 53%);
+    cursor: pointer;
+    color: white;
+}
+
+.submit {
+    background-color: hsl(25, 97%, 53%);
+    padding: 10px 100px; 
+    margin: 20px auto;
+    text-align: center;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+.submit:hover {
+    background-color: white;
+    color:hsl(25, 97%, 53%);
+}
+
+li.selected {
+    background-color: #7c8898;
+    color: white;
+}
+ul {
+    list-style: none;
+    margin: 20px auto;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+}
+li {
+    display: inline;
+    background-color: #262f38;
+    
+}
+
+/* .rating-selection {
+    margin: 20px auto;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+} */
+
+input{
+    background-color: green;
+    padding: 80px;
+}
+
+
+#rating-state h1, #rating-state h1 + p {
+    text-align: left;
+}
+
+h1 + p {
+    color: #7c8898;
+}
+
+/* attribution */
+.attribution { 
+    font-size: 11px; text-align: center; color: white;
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+
+@media only screen and (max-width: 500px){
+    .container {
+        width: 275px;
+
+    }
+}
